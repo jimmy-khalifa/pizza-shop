@@ -7,7 +7,7 @@ export class PizzaCatalog {
   constructor(list: Pizza[]) {
     this.list = list;
   }
-
+//hello world
   filterPizzaByVegan(vegan: boolean): Pizza[] {
     return this.list.filter((pizza: Pizza) => pizza.vegan === vegan);
   }
